@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Samostatná práce</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styly.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Domů</a>
+        <a href="image.html">Obrázky</a>
+    </nav>
+
+    <h1>Šimon Šupola</h1>
+
+    <p>
+        Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit.
+        Maecenas<sub>subscript</sub> ullamcorper <sup>superscript</sup> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+
+    <ol type="i">
+        <li>Pondělí</li>
+        <li>Pátek</li>
+        <li>Sobota</li>
+    </ol>
+
+    <ul>
+        <li>Leden</li>
+        <li>Červenec</li>
+        <li>Květen</li>
+    </ul>
+
+    <form action="data.html" method="post">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Registrace</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="jmeno">Jméno:</label></td>
+                    <td><input type="text" id="jmeno" name="jmeno" required></td>
+                </tr>
+                <tr>
+                    <td><label for="heslo">Heslo:</label></td>
+                    <td><input type="password" id="heslo" name="heslo" required></td>
+                </tr>
+                <tr>
+                    <td><label for="vek">Věk:</label></td>
+                    <td><input type="number" id="vek" name="vek" min="0" max="150" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="student">Je student:</label></td>
+                    <td><input type="checkbox" id="student" name="student"></td>
+                </tr>
+                <tr>
+                    <td><label>Pohlaví:</label></td>
+                    <td>
+                        <input type="radio" id="pohlavi-muz" name="pohlavi" value="muz" required>
+                        <label for="pohlavi-muz">Muž</label>
+                        <input type="radio" id="pohlavi-zena" name="pohlavi" value="zena" required>
+                        <label for="pohlavi-zena">Žena</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="vzdelani">Nejvyšší dosažené vzdělání:</label></td>
+                    <td>
+                        <select id="vzdelani" name="vzdelani" required>
+                            <option value="" disabled selected>Vyberte možnost</option>
+                            <option value="ZŠ">Základní škola</option>
+                            <option value="SŠ">Střední škola</option>
+                            <option value="VŠ">Vysoká škola</option>
+                            <option value="Jiné">Jiné</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="Odeslat">
+    </form>
+</body>
+</html>
