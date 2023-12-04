@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styly.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Domů</a>
+        <a href="image.html">Obrázky</a>
+        <a href="data.html"></a>
+    </nav>
+    <h1>Zaslaná data</h1>
+    <script>
+        let data = new URLSearchParams(window.location.search);
+        data.forEach((value, name) => {
+            document.body.append(name + " : " + value);
+            document.body.appendChild(document.createElement("br"));
+        });
+    </script>
+</body>
+</html>
