@@ -1,0 +1,77 @@
+.inline-container,
+.inline-block-container,
+.block-container,
+.flex-container {
+  border: 1px solid black;
+}
+
+.inline-div {
+  display: inline;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(143, 143, 143);
+  font: 2rem monospace;
+  transition: background-color 3s;
+}
+
+.inline-block-div {
+  display: inline-block;
+  background-color: rgb(206, 0, 0);
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(88, 0, 0);
+  font: 2rem monospace;
+  transition: background-color 3s;
+}
+
+.block-div {
+  display: block;
+  background-color: rgb(0, 224, 0);
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(7, 158, 15);
+  font: 2rem monospace;
+  transition: background-color 3s;
+}
+
+.flex-div {
+  background-color: rgb(0, 247, 255);
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  color: rgb(0, 113, 206);
+  font: 2rem monospace;
+  transition: background-color 3s;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inline-div:hover,
+.inline-block-div:hover,
+.block-div:hover,
+.flex-div:hover {
+  background-color: purple;
+}
+
+@keyframes zvetseni {
+  0% { width: 100px; }
+  100% { width: 200px; }
+}
+
+.inline-div, .inline-block-div, .block-div, .flex-div {
+  animation-name: zvetseni;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
