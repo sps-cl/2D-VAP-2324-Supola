@@ -1,0 +1,6 @@
+R:\VAP\Konzolové aplikace - třetí samostatná práce\Konzolové aplikace - třetí samostatná práce\bin\Debug\Konzolové aplikace - třetí samostatná práce.exe.config
+R:\VAP\Konzolové aplikace - třetí samostatná práce\Konzolové aplikace - třetí samostatná práce\bin\Debug\Konzolové aplikace - třetí samostatná práce.exe
+R:\VAP\Konzolové aplikace - třetí samostatná práce\Konzolové aplikace - třetí samostatná práce\bin\Debug\Konzolové aplikace - třetí samostatná práce.pdb
+R:\VAP\Konzolové aplikace - třetí samostatná práce\Konzolové aplikace - třetí samostatná práce\obj\Debug\Konzolové aplikace - třetí samostatná práce.csprojResolveAssemblyReference.cache
+R:\VAP\Konzolové aplikace - třetí samostatná práce\Konzolové aplikace - třetí samostatná práce\obj\Debug\Konzolové aplikace - třetí samostatná práce.exe
+R:\VAP\Konzolové aplikace - třetí samostatná práce\Konzolové aplikace - třetí samostatná práce\obj\Debug\Konzolové aplikace - třetí samostatná práce.pdb
